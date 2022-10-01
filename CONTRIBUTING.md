@@ -2,9 +2,21 @@
 
 # Start development
 
-Before you can start making changes, it's mandatory to run a `lerna bootstrap` for installing all the dependencies.
+## Prerequisites
 
-After that, you can start coding. Here is the folder layout
+You need `pnpm` to work on `tsparticles`. Read [their installation documentation](https://pnpm.io/installation) on how to install it for your machine. Don't forget to `source` the location `pnpm` was installed (`.bash_profile`, `.bashrc`, `.zshrc`, or similar depending on your operating system).
+
+Then install dependencies with:
+
+```shell
+pnpm i
+```
+
+After that, you can start coding. 
+
+## Project Layout
+
+Here is the folder layout:
 
 - `components` is where all the third party components are present (React, Vue, etc.)
 - `demo` is where all the demo apps are present.
